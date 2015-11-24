@@ -1,0 +1,18 @@
+{
+  "name": "helmjs",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudCoreo/helmjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CloudCoreo/helmjs/issues"
+  },
+  "main": "index.js",
+  "author": "paul@cloudcoreo.com",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "request": "^2.60.0"
+  }
+}
