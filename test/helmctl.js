@@ -2,7 +2,7 @@ var expect = require('chai').expect
 	, h = require('../index.js')
 	, assert = require('chai').assert
 
-var helm = h.helm({binary: '/opt/helm/helm'});
+var helm = h.helm();
 
 describe('helm',function() {
     this.timeout(1000000);
