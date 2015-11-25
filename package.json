@@ -1,7 +1,7 @@
 {
   "name": "helmjs",
   "version": "0.0.1",
-  "description": "",
+  "description": "helmjs is a nodejs package to utilize helm.sh. inspiration comes from the k8s npm package.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CloudCoreo/helmjs.git"
