@@ -7,8 +7,8 @@ var helm = h.helm({binary: './helm'});
 describe('helm',function() {
     this.timeout(1000000);
     
-    it('searches all of helm', function(done){
-	helm.search(null, function(err, data){
+    it('list all of helm', function(done){
+	helm.list(function(err, data){
 	    done();
 	});
     });

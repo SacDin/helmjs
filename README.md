@@ -15,7 +15,7 @@ var helmjs = require('helmjs');
 var helm = helmjs.helm({binary: '/opt/helm/helm'});
 
 // get a full list of helm packages
-helm.search(null, function(err, data){
+helm.list(function(err, data){
   done();
 });
 
